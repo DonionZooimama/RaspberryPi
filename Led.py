@@ -3,10 +3,10 @@ import RPi.GPIO as GPIO
 import time
 
 GPIO.setmode(GPIO.BOARD)
-GPIO.setup(8,GPIO.OUT)
+GPIO.setup(4,GPIO.OUT)
 while True:
-        GPIO.output(8, GPIO.HIGH)
-        time.sleep(0.05)
-        GPIO.output(8, GPIO.LOW)
-        time.sleep(0.05)
+        GPIO.output(4, GPIO.HIGH)
+        time.sleep(0.02)
+        GPIO.output(4, GPIO.LOW)
+        time.sleep(0.02)
 

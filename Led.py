@@ -6,7 +6,7 @@ GPIO.setmode(GPIO.BOARD)
 GPIO.setup(8,GPIO.OUT)
 while True:
         GPIO.output(8, False)
-        time.sleep(0.04)
+        time.sleep(0.1)
         GPIO.output(8, GPIO.LOW)
-        time.sleep(0.04)
+        time.sleep(0.1)
 

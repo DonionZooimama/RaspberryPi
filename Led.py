@@ -24,5 +24,3 @@ while True:
         GPIO.output(32, GPIO.LOW)
         time.sleep(0.5)
         GPIO.output(36, GPIO.LOW)
-        time.sleep(0.5)
-

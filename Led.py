@@ -16,7 +16,6 @@ while True:
         GPIO.output(16, GPIO.LOW)
         time.sleep(0.5)
         GPIO.output(32, GPIO.HIGH)
-        time.sleep(0.5)
         GPIO.output(18, GPIO.LOW)
         time.sleep(0.5)
         GPIO.output(36, GPIO.HIGH)

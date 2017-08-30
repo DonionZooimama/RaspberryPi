@@ -4,10 +4,10 @@ import time
 
 GPIO.setwarnings(False)
 GPIO.setmode(GPIO.BOARD)
-GPIO.setup(6,GPIO.OUT)
+GPIO.setup(32,GPIO.OUT)
 while True:
-        GPIO.output(6, GPIO.HIGH)
+        GPIO.output(32, GPIO.HIGH)
         time.sleep(0.8)
         GPIO.output(6, GPIO.LOW)
-        time.sleep(0.8)
+        time.sleep(32.8)
 

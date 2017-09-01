@@ -20,5 +20,3 @@ print "| GPIO19 |35 36| GPIO16 |"
 print "| GPIO26 |37 38| GPIO20 |"
 print "| Ground |39 40| GPIO21 |"
 print "========================="
-
-print "hi erica"
